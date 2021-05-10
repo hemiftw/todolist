@@ -1,0 +1,112 @@
+.main_container {
+    width: 650px;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .first_task_btn {
+        text-align: center;
+        margin: 30px 0;
+
+
+    }
+}
+.table_area{
+    .table_filter{
+       text-align: left;
+       margin-bottom: 20px;
+    }
+   .btn_area{
+    display: flex;
+    button{
+        margin-left: 10px;
+    }
+    .edit_btn{
+        background-color: #fab90a;
+        &:hover{
+            background-color: #fab90a;
+        }
+    }
+    .done_btn{
+        background-color: #1bf738;
+        &:hover{
+            background-color: #1bf738;
+        }
+    }
+   }
+  
+}
+.formContainer {
+    background-color: #fff;
+    padding: 20px;
+  .modal_header{
+      display: flex;
+      justify-content: space-between;
+      span{
+          color: #f53210;
+      }
+  }
+    .form_control {
+        margin: 10px 0;
+    }
+
+    .btn_area {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.detail_container {
+    background-color: #fff;
+    padding: 20px;
+
+    .task_details_container {
+
+        span {
+            padding: 7px;
+            width: fit-content;
+            color: #fff;
+        }
+
+        .high {
+            background-color: #f53210;
+        }
+
+        .medium {
+            background-color: #fab90a;
+        }
+
+        .low {
+            background-color: #1bf738;
+        }
+
+        .task_title {
+            text-align: center;
+        }
+       .task_desc{
+           text-align: justify;
+           line-height: 26px;
+       }
+        .btn_area{
+            display: flex;
+            justify-content: space-between;
+           
+            button{
+                padding: 0 20px;
+            }
+            .edit_btn{
+                background-color: #fab90a;
+            }
+            .done_btn{
+                background-color: #1bf738;
+            }
+            .delete_btn{
+                background-color: #f53210;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+export const STORE_TASKS = 'STORE_TASKS';
+export const STORE_MODAL_STATE = 'STORE_MODAL_STATE';
